@@ -7,7 +7,7 @@
     storageBucket: "train-scheduler-1e8c1.appspot.com",
     messagingSenderId: "892494380095"
   };
-  
+
   firebase.initializeApp(config);
 
   var database = firebase.database();
@@ -98,19 +98,6 @@ $("#add-train").on("click", function() {
   return false; 
 });
 
-// Delete function
-// $(document).on("click", ".delete", function(){
-//   var confirmDelete = confirm("Are you sure you want to delete this entry?");
-  
-//    if (confirmDelete){
-//     var entry = $(this).attr("data-index");
-//     database.ref().child(trainIDs[entry]).remove();
-//     location.reload();
-//    } else{
-//      return false;
-//    }
-  
-// });
 
 // Firebase watcher + initial loader HINT: This code behaves similarly to .on("child_added")
 // This will only show the 25 latest entries

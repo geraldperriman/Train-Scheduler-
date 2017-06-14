@@ -1,7 +1,7 @@
 body{
 	background: url("../images/train.gif");
 	background-size: 500px;
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Fondamento', cursive;
 	font-size: 20px;
 
 }
@@ -9,15 +9,15 @@ body{
 .jumbotron{
 	background: transparent;
 	background-image: url("../images/header.png");
-	background-size:500px;
+	background-size:700px;
 	padding:50px;
 	
 
 }
 
 .jumbotron h1 {
-	color: #2fa4e7;
-	font-family: 'Pacifico', cursive;
+	color: black;
+	font-family: 'Righteous', cursive;
 	padding:10px;
 	background-color:transparent;
 	font-size: 120px;
@@ -26,8 +26,8 @@ body{
 }
 
 h3{
-	font-family: 'Pacifico', cursive;
-	color: #2fa4e7;
+	font-family: 'Righteous', cursive;
+	color: black;
 	text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
 	font-size:40px;
 
@@ -37,20 +37,46 @@ h3{
 }
 
 h5{
-	color:#2fa4e7;
+	color:black;
 	font-size: 30px;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Righteous', cursive;
 	background: red;
 	text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
-	border: 5px solid white;
+	border: 5px solid black;
 	padding:10px;
 
 }
 
 
+
+.panel-primary>.panel-heading{
+	font-family: 'Righteous', cursive;
+	color:black;
+	background-color: red;
+}
+
+
+
+
+.btn-group-sm>.btn, .btn-sm {
+	background-color:black;
+	color:white;
+}
+
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: red;
+    font-size: 20px;
+}
+
+
 .panel-group{
 	color:red;
-	border:5px solid red;
+
 }
 
 .table-responsive {
