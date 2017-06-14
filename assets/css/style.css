@@ -55,12 +55,16 @@ h5{
 	background-color: red;
 }
 
+.panel-primary {
+    border:10px solid black;
+}
 
 
 
 .btn-group-sm>.btn, .btn-sm {
 	background-color:black;
 	color:white;
+	font-size: 15px;
 }
 
 
@@ -76,6 +80,7 @@ h5{
 
 .panel-group{
 	color:red;
+	border:2px solid black;
 
 }
 
