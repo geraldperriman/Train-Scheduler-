@@ -84,6 +84,17 @@ h5{
 
 }
 
+b, strong {
+    font-weight: 700;
+    color: red;
+}
+
+#new-train{
+	color:black;
+}
+
+
+
 .table-responsive {
    color:red;
 }
